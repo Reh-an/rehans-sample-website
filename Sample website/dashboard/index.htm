@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css"></head>
+<body>
+    <header>
+        <h1>Dashboard</h1>
+        <nav>
+            <a href="/">Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Create New Post</h2>
+        <form id="post-form">            <input type="text" id="title" placeholder="Post Title" required>
+            <textarea id="content" placeholder="Post Content" required></textarea>
+            <button type="submit">Create Post</button>
+        </form>
+
+        <h2>Existing Posts</h2>
+        <ul id="post-list"></ul>
+    </main>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
